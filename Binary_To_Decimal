@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+int Decimal(int iNo)
+{
+    int iDigit=0,iPower=1,iRes=0;
+    while(iNo!=0)
+    {
+        iDigit=iNo%10;
+        iRes=iRes+(iDigit*iPower);
+        iPower=iPower*2;
+        iNo=iNo/10;
+    }
+    return iRes;
+}
+int main()
+{
+    int iValue=0,iRet=0;
+    
+    cout<<"Enter the Binary Number"<<endl;
+    cin>>iValue;
+    
+    iRet=Decimal(iValue);
+    cout<<"Decimal Number is:"<<iRet<<endl;
+    
+    return 0;
+}
