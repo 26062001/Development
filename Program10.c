@@ -1,16 +1,16 @@
 
 #include<stdio.h>
 
-void Display();         // Declaration
+void Display();         
 
 int main()
 {
-    Display();      // Function call
+    Display();      
     
     return 0;
 }
 
-void Display()      // Defination
+void Display()      
 {
     int i = 0;
     
