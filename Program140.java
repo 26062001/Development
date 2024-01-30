@@ -9,6 +9,7 @@ class Marvellous
 		return iResult;
 	}
 }
+
 class Program140
 {
 	public static void main(String str[])
